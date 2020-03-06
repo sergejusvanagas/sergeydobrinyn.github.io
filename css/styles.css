@@ -4,7 +4,7 @@
 @import url(media.css);
 html {
   font-family: "BitterRegular";
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   color: #FF6600;
 }
 body {
@@ -16,7 +16,7 @@ body {
   color: #FFFFFF;
 }
 header, section, footer {
-  padding: 10px 0;
+  padding: 5px 0;
   color: #FFFFFF;
 }
 h2 {
@@ -67,7 +67,31 @@ nav.desk ul {
   transition: .5s;
 }
 /*Styles*/
-
+.block {
+  margin: 5px 10px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+footer {
+  background-color: #575757;
+}
+footer .block {
+  flex-basis: 250px;
+  line-height: 1.4;
+}
+footer .block h3 {
+  font-family: "BitterBold";
+  text-align: center;
+  font-size: 120%;
+  line-height: 50px;
+}
+footer .block a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+footer .block p {
+  text-align: justify;
+}
 /*Go to top*/
 span#goTopSpan {
   color: #FA6600;
