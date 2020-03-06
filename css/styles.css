@@ -7,10 +7,10 @@ html {
   color: #3F51B5;
 }
 body {
-  background-image: url(../img/background.jpg);
+  /*background-image: url(../img/background.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
   position: relative;
   color: #FFFFFF;
 }
@@ -23,6 +23,7 @@ h2 {
   font-size: 180%;
   width: 100%;
   font-family: "BitterBold";
+  color: #3F51B5;
 }
 /*Logo*/
 a.logo {
