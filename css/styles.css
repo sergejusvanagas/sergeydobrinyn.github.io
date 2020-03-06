@@ -1,0 +1,180 @@
+@import url(reset.css);
+@import url(flex.css);
+@import url(fonts.css);
+@import url(media.css);
+html {
+  font-family: "BitterRegular";
+  font-size: 1.6rem;
+  color: #FF6600;
+}
+body {
+  background-image: url(../img/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: #FFFFFF;
+}
+header, section, footer {
+  padding: 10px 0;
+  color: #FFFFFF;
+}
+footer {
+  background-color: #FF6600;
+  font-family: "BitterItalic";
+}
+h2 {
+  text-align: center;
+  font-size: 180%;
+  width: 100%;
+  font-family: "BitterBold";
+}
+/*Logo*/
+a.logo {
+  color: #FF6600;
+  text-decoration: none;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 180px;
+}
+a.logo:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url(../img/logo.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 100%;
+}
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  transition: .5s;
+  z-index: 999;
+  background-color: rgba(0,0,0,.6);
+}
+nav.desk {
+  text-align: center;
+}
+nav.desk ul {
+  display: inline-block;
+}
+.nav-link:hover {
+  color: #FF6600;
+  transition: .5s;
+}
+.team-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  min-width: 100%;
+}
+.team-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 250px;
+}
+.team-item img {
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+  border-radius: 100%;
+  margin-bottom: 10px;
+}
+.team-item p {
+  text-align: center;
+  font-family: "BitterBoldItalic";
+}
+.team-item p + p {
+  font-family: "BitterItalic";
+  font-size: 60%;
+  margin-top: 5px;
+}
+.team-item .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+.team-item .links a {
+  text-decoration: none;
+  color: #FF6600;
+  display: block;
+  width: 40px;
+  line-height: 40px;
+  background-color: #FFFFFF;
+  text-align: center;
+  margin: 5px;
+  border-radius: 100%;
+}
+#nominations p, #program p {
+  text-align: justify;
+  line-height: 1.4;
+  text-indent: 2rem;
+}
+.skill {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 250px;
+}
+.skill img {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+}
+.block {
+  background-color: #FFFFFF;
+  color: #000000;
+  padding: 10px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 250px;
+  margin: 5px;
+  min-height: 200px;
+}
+/*Go to top*/
+span#goTopSpan {
+  color: #FA6600;
+  text-shadow: 0px 0px 4px rgba(0,0,0,.5);
+  z-index: 999;
+}
+/*Pop-up*/
+.popup-link {
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: #FA6600;
+}
+.pop-up {
+  background-color: #666666;
+  padding: 20px;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "ClearSansLight";
+  font-size: .8rem;
+}
+.pop-up img {
+  display: block;
+  width: 210px;
+  border-radius: 100%;
+  margin-bottom: 10px;
+}
