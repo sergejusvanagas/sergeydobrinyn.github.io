@@ -19,10 +19,6 @@ header, section, footer {
   padding: 10px 0;
   color: #FFFFFF;
 }
-footer {
-  background-color: #FF6600;
-  font-family: "BitterItalic";
-}
 h2 {
   text-align: center;
   font-size: 180%;
@@ -70,82 +66,8 @@ nav.desk ul {
   color: #FF6600;
   transition: .5s;
 }
-.team-wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  min-width: 100%;
-}
-.team-item {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-grow: 0;
-  flex-shrink: 0;
-  flex-basis: 250px;
-}
-.team-item img {
-  display: block;
-  margin: 0 auto;
-  max-width: 200px;
-  border-radius: 100%;
-  margin-bottom: 10px;
-}
-.team-item p {
-  text-align: center;
-  font-family: "BitterBoldItalic";
-}
-.team-item p + p {
-  font-family: "BitterItalic";
-  font-size: 60%;
-  margin-top: 5px;
-}
-.team-item .links {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: nowrap;
-}
-.team-item .links a {
-  text-decoration: none;
-  color: #FF6600;
-  display: block;
-  width: 40px;
-  line-height: 40px;
-  background-color: #FFFFFF;
-  text-align: center;
-  margin: 5px;
-  border-radius: 100%;
-}
-#nominations p, #program p {
-  text-align: justify;
-  line-height: 1.4;
-  text-indent: 2rem;
-}
-.skill {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: 250px;
-}
-.skill img {
-  display: block;
-  width: 100px;
-  margin: 0 auto;
-}
-.block {
-  background-color: #FFFFFF;
-  color: #000000;
-  padding: 10px;
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: 250px;
-  margin: 5px;
-  min-height: 200px;
-}
+/*Styles*/
+
 /*Go to top*/
 span#goTopSpan {
   color: #FA6600;
