@@ -75,6 +75,10 @@ nav.desk ul {
 footer {
   background-color: #575757;
 }
+footer .logo {
+  font-family: "BitterBold";
+  font-size: 120%;
+}
 footer .block {
   flex-basis: 250px;
   line-height: 1.4;
