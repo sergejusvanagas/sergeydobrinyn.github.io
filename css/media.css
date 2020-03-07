@@ -10,7 +10,6 @@
   nav.desk ul li a {
     color: #FFFFFF;
     text-decoration: none;
-    line-height: 50px;
     display: block;
   }
   footer .wrap .block:last-child { flex-grow: 0; }
