@@ -34,8 +34,11 @@ header .wrap {
 .mid {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
+}
+.mid .wrap {
+  width: 100%;
 }
 .mid ul li {
   margin-bottom: 20px;
