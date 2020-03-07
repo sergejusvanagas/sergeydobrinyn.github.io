@@ -49,6 +49,9 @@ header .wrap {
 .mid .wrap {
   width: 100%;
 }
+.mid .wrap ul {
+  margin: 20px 0;
+}
 .mid ul li {
   margin-bottom: 20px;
   text-align: center;
