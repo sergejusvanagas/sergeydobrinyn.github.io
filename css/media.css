@@ -10,6 +10,8 @@
   nav.desk ul li a {
     color: #3F51B5;
     text-decoration: none;
+    line-height: 50px;
+    display: block;
   }
   footer .wrap .block:last-child { flex-grow: 0; }
   .pop-up { width: 350px; }
