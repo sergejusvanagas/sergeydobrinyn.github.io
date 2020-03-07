@@ -7,11 +7,6 @@ html {
   color: #3F51B5;
 }
 body {
-  /*background-image: url(../img/background.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;*/
-  position: relative;
   color: #FFFFFF;
 }
 header, section, footer {
@@ -19,8 +14,21 @@ header, section, footer {
   color: #FFFFFF;
 }
 header {
-  background-color: #777777;
+  background-image: url(../img/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #FFFFFF;
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,.6);
+  display: none;
 }
 header .cont {
   display: flex;
@@ -34,8 +42,11 @@ header .wrap {
 .mid {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
+}
+.mid .wrap {
+  width: 100%;
 }
 .mid ul li {
   margin-bottom: 20px;
