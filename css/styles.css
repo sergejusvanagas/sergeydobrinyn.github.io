@@ -49,6 +49,15 @@ header .wrap {
 .mid .wrap {
   width: 100%;
 }
+.mid .wrap div {
+  flex-basis: 510px;
+  flex-shrink: 1;
+}
+.mid .wrap p {
+  text-align: center;
+  margin-top: 10px;
+  font-family: "BitterItalic";
+}
 .mid .wrap ul {
   margin: 20px 0;
 }
@@ -63,9 +72,18 @@ header .wrap {
   color: #FFFFFF;
   font-size: 250%;
 }
-.bot .wrap p {
-  width: 100%;
-  text-align: center;
+.bot .wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.bot .wrap a {
+  display: block;
+  padding: 10px 20px;
+  border: 2px #FFFFFF solid;
+  border-radius: 10px;
+  color: #FFFFFF;
+  text-decoration: none;
 }
 h1 {
   font-size: 220%;
