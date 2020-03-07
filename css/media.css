@@ -1,29 +1,22 @@
 @media only screen and (min-width: 768px) {
-  html {
-    font-size: 1.2rem;
-  }
+  html { font-size: 1.2rem; }
   #burg, nav.mobile { display: none; }
   nav.desk { display: inline-block; }
   nav.desk ul li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 10px;
   }
   nav.desk ul li:last-child { margin-right: 0; }
   nav.desk ul li a {
     color: #3F51B5;
     text-decoration: none;
   }
-  footer .wrap .block:last-child {
-    flex-grow: 0;
-  }
+  footer .wrap .block:last-child { flex-grow: 0; }
   .pop-up { width: 350px; }
 }
 @media only screen and (max-width: 767px) {
-  html {
-    font-size: .9rem;
-  }
+  html { font-size: .9rem; }
   nav.desk { display: none; }
-  .top { position: relative; }
   nav.mobile {
     position: absolute;
     top: 70px;
@@ -46,9 +39,7 @@
     text-decoration: none;
     color: #FFFFFF;
   }
-  footer li {
-    margin: 5px 0;
-  }
+  footer li { margin: 5px 0; }
   .pop-up { width: 250px; }
 }
 @media only screen and (min-width: 1024px) {}

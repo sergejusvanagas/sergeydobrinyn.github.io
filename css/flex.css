@@ -2,9 +2,7 @@
 @media (min-width: 768px) { .cont { width: 750px; } }
 @media (min-width: 992px) { .cont { width: 970px; } }
 @media (min-width: 1200px) { .cont { width: 1170px; } }
-.cont {
-  margin: 0 auto;
-}
+.cont { margin: 0 auto; }
 .wrap {
   display: flex;
   flex-direction: row;
@@ -14,6 +12,4 @@
   padding: 0 10px;
   margin-bottom: 10px;
 }
-.wrap:last-child {
-	margin-bottom: 0;
-}
+.wrap:last-child { margin-bottom: 0; }

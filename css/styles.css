@@ -18,6 +18,10 @@ header, section, footer {
   padding: 5px 0;
   color: #FFFFFF;
 }
+header .wrap {
+  align-items: center;
+  padding: 0 20px;
+}
 h2 {
   text-align: center;
   font-size: 180%;
@@ -31,7 +35,7 @@ a.logo {
   text-decoration: none;
   flex-grow: 0;
   flex-shrink: 0;
-  flex-basis: 180px;
+  flex-basis: 240px;
 }
 a.logo:before {
   content: "";
