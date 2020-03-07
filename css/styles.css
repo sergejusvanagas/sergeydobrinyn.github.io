@@ -67,6 +67,11 @@ header .wrap {
   width: 100%;
   text-align: center;
 }
+h1 {
+  font-size: 220%;
+  font-family: "BitterBold";
+  text-transform: uppercase;
+}
 h2 {
   text-align: center;
   font-size: 180%;
@@ -146,7 +151,7 @@ footer .block a {
   text-decoration: none;
 }
 footer .block p {
-  text-align: justify;
+  text-align: left;
 }
 .copy {
   font-family: "BitterItalic";
