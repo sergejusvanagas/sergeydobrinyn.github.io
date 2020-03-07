@@ -1,7 +1,7 @@
 $(document).ready(function() {
-	//$("body").css("min-height", $(window).height());
+	$("header .cont").css("min-height", $(window).height() - 10);
   $(".nav-link").mPageScroll2id({
-    offset: $("header").height()
+    //offset: $("header").height()
   });
   $("#go-to-top").goTop({
     appear: 200,
@@ -41,7 +41,7 @@ $(document).ready(function() {
   //Fixed menu
   $(document).scroll (function(){
     if ($(document).width() >= 768){
-      if ($(document).scrollTop() > $("header").height() + 10)
+      if ($(document).scrollTop() > $(window).height() - 400)  
         $("nav.desk").addClass("fixed");
       else
         $("nav.desk").removeClass("fixed");

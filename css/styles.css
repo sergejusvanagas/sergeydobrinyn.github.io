@@ -18,6 +18,15 @@ header, section, footer {
   padding: 5px 0;
   color: #FFFFFF;
 }
+header {
+  background-color: #777777;
+  color: #FFFFFF;
+}
+header .cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 header .wrap {
   align-items: center;
   padding: 0 20px;
@@ -31,7 +40,7 @@ h2 {
 }
 /*Logo*/
 a.logo {
-  color: #3F51B5;
+  color: #FFFFFF;
   text-decoration: none;
   flex-grow: 0;
   flex-shrink: 0;
