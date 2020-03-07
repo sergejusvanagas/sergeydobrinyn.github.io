@@ -40,6 +40,9 @@
     text-decoration: none;
     color: #FFFFFF;
   }
+  .mid .wrap ul {
+    display: none;
+  }
   footer li { margin: 5px 0; }
   .pop-up { width: 250px; }
 }
