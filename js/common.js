@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$("header .cont").css("min-height", $(window).height()*.4);
+	$("header .cont").css("min-height", $(window).height()*.8);
   $(".nav-link").mPageScroll2id({
     //offset: $("header").height()
   });

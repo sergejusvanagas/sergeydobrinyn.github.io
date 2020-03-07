@@ -37,6 +37,17 @@ header .wrap {
   justify-content: flex-end;
   align-items: center;
 }
+.mid ul li {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.mid ul li:last-child {
+  margin-bottom: 0;
+}
+.mid ul li a {
+  color: #FFFFFF;
+  font-size: 250%;
+}
 h2 {
   text-align: center;
   font-size: 180%;
