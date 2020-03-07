@@ -7,7 +7,6 @@ html {
   color: #3F51B5;
 }
 body {
-  position: relative;
   color: #FFFFFF;
 }
 header, section, footer {
@@ -29,6 +28,7 @@ header {
   right: 0;
   bottom: 0;
   background-color: rgba(0,0,0,.6);
+  display: none;
 }
 header .cont {
   display: flex;
