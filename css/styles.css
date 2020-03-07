@@ -15,7 +15,7 @@ body {
   color: #FFFFFF;
 }
 header, section, footer {
-  padding: 5px 0;
+  padding: 15px 0;
   color: #FFFFFF;
 }
 header {
@@ -30,6 +30,12 @@ header .cont {
 header .wrap {
   align-items: center;
   padding: 0 20px;
+}
+.mid {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
 }
 h2 {
   text-align: center;
@@ -111,6 +117,9 @@ footer .block a {
 }
 footer .block p {
   text-align: justify;
+}
+.copy {
+  font-family: "BitterItalic";
 }
 /*Go to top*/
 span#goTopSpan {
