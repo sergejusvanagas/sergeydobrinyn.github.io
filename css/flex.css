@@ -11,5 +11,6 @@
   align-items: flex-start;
   padding: 0 10px;
   margin-bottom: 10px;
+  width: 100%;
 }
 .wrap:last-child { margin-bottom: 0; }
