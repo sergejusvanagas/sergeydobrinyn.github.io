@@ -41,7 +41,7 @@ $(document).ready(function() {
   //Fixed menu
   $(document).scroll (function(){
     if ($(document).width() >= 768){
-      if ($(document).scrollTop() > $(window).height() - 400)  
+      if ($(document).scrollTop() > $(".top").height())  
         $("nav.desk").addClass("fixed");
       else
         $("nav.desk").removeClass("fixed");
