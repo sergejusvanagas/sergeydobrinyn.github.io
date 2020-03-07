@@ -55,7 +55,7 @@ header .wrap {
 }
 .mid .wrap p {
   text-align: center;
-  margin-top: 10px;
+  margin: 10px 0;
   font-family: "BitterItalic";
 }
 .mid .wrap ul {
