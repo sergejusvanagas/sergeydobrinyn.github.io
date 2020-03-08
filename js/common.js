@@ -1,7 +1,8 @@
 $(document).ready(function() {
 	//$("header .cont").css("min-height", $(window).height());
   $(".nav-link").mPageScroll2id({
-    //offset: $("header").height()
+    //offset: $(".desk .fixed").height()
+    offset: 40
   });
   $("#go-to-top").goTop({
     appear: 200,
