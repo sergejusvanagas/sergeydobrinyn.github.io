@@ -131,24 +131,24 @@ nav.desk ul {
   color: #FF6600;
   transition: .5s;
 }
-#about {
+#skill {
   color: #000000;
 }
-#about .block {
+#skill .block {
   flex-basis: 46%;
 }
-#about .block img {
+#skill .block img {
   display: block;
   width: 60px;
   float: left;
 }
-#about .block h2 {
+#skill .block h2 {
   font-family: "BitterBold";
   font-size: 180%;
   margin-left: 80px;
   margin-bottom: 10px;
 }
-#about .block p {
+#skill .block p {
   margin-left: 80px;
   text-align: justify;
 }
