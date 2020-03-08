@@ -134,9 +134,15 @@ nav.desk ul {
 #skill {
   color: #000000;
 }
+#skill .wrap {
+  justify-content: center;
+}
 #skill .block {
   flex-basis: 46%;
 }
+/*#skill .block:last-child {
+  flex-grow: 0;
+}*/
 #skill .block img {
   display: block;
   width: 60px;
