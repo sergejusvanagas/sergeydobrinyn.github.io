@@ -11,6 +11,9 @@
     color: #FFFFFF;
     text-decoration: none;
   }
+  .mid .wrap div {
+    transform: translateX(24px);
+  }
   footer .wrap .block:last-child { flex-grow: 0; }
   .pop-up { width: 350px; }
 }
