@@ -201,6 +201,9 @@ span#goTopSpan {
   text-shadow: 0px 0px 4px rgba(0,0,0,.5);
   z-index: 999;
 }
+.ya-share2__container, .ya-share2__container_size_m {
+  text-align: center;
+}
 /*Pop-up*/
 .popup-link {
   display: block;
