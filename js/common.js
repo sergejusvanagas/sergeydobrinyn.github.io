@@ -13,8 +13,8 @@ $(document).ready(function() {
     fadein: 500,
     fadeout: 500,
     opacity: 0.5,
-    marginX: 3,
-    marginY: 7
+    marginX: 2,
+    marginY: 8
   });
   //$("").animated("fadeInLeft", "fadeOutLeft");
   $(".owl-carousel").owlCarousel({
