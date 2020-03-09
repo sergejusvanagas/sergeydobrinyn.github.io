@@ -61,11 +61,24 @@ header .wrap {
 .mid .wrap div {
   flex-basis: 510px;
   flex-shrink: 1;
+  text-align: center;
 }
 .mid .wrap p {
   text-align: center;
   margin: 10px 0;
   font-family: "BitterItalic";
+}
+.social-links {
+  display: inline-block;
+  margin: 0 auto !important;
+}
+.social-links li {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 0 !important;
+}
+.social-links li:last-child {
+  margin-right: 0;
 }
 .mid .wrap ul {
   margin: 20px 0;
