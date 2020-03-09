@@ -14,7 +14,7 @@ $(document).ready(function() {
     fadeout: 500,
     opacity: 0.5,
     marginX: 2,
-    marginY: 8
+    marginY: 14
   });
   //$("").animated("fadeInLeft", "fadeOutLeft");
   $(".owl-carousel").owlCarousel({
