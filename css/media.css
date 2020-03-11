@@ -46,8 +46,7 @@
     display: none;
   }
   .mix {
-    width: 130px !important;
-    height: 100px !important;
+    flex-basis: 46% !important;
   }
   footer li { margin: 5px 0; }
   .pop-up { width: 250px; }
