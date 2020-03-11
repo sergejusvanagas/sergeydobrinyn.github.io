@@ -210,6 +210,17 @@ nav.desk ul {
   background-color: #C5C5D6;
   color: #000000;
 }
+#portfolio .block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#portfolio img {
+  display: block;
+  width: 100px;
+  border-radius: 10px;
+}
 /*Styles*/
 .block {
   margin: 5px 10px;
