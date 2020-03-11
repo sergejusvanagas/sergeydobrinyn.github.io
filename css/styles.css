@@ -240,10 +240,11 @@ nav.desk ul {
   align-items: center;
 }
 .mix {
-  width: 240px;
-  height: 180px;
+  flex-basis: 23%;
+  flex-grow: 0;
+  flex-shrink: 1;
   margin: 5px;
-  padding: 5px;
+  padding: 40px 20px;
   text-align: center;
   background-color: #777777;
   display: none;
