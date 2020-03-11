@@ -106,7 +106,7 @@ header .wrap {
 }
 .bot .wrap a:hover {
   background-color: #FFFFFF;
-  color: #000000;
+  color: rgb(40,194,226);
 }
 h1 {
   font-size: 220%;
