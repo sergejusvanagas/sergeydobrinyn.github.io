@@ -212,14 +212,35 @@ nav.desk ul {
 }
 #portfolio .block {
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.controls {
+  margin-bottom: 10px;
+}
+.controls button {
+  font-family: "BitterItalic";
+  font-size: 80%;
+  background-color: rgba(255,255,255,0);
+  width: 100px;
+}
+.controls button.on {
+  border-bottom: 2px solid rgb(40,194,226);
+}
+.portfolio-items {
+  display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-#portfolio img {
-  display: block;
-  width: 100px;
-  border-radius: 10px;
+.mix {
+  width: 240px;
+  height: 180px;
+  margin: 5px;
+  background-color: #777777;
+  display: none;
 }
 /*Styles*/
 .block {
