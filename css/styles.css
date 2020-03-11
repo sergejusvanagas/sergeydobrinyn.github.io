@@ -243,6 +243,8 @@ nav.desk ul {
   width: 240px;
   height: 180px;
   margin: 5px;
+  padding: 5px;
+  text-align: center;
   background-color: #777777;
   display: none;
 }
