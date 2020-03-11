@@ -14,10 +14,6 @@ header, section, footer {
   color: #FFFFFF;
 }
 header {
-  /*background-image: url(../img/background.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;*/
   color: #FFFFFF;
   position: relative;
 }
@@ -180,7 +176,7 @@ nav.desk ul {
   display: inline-block;
 }
 .nav-link:hover {
-  color: #FF6600;
+  color: rgb(40,194,226);
   transition: .5s;
 }
 #skill {
