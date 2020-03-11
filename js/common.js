@@ -70,6 +70,22 @@ $(document).ready(function() {
       }
     }*/
   });
+  $(".portfolio-items").mixItUp({
+    controls: {
+      enable: true,
+      activeClass: "on"
+    },
+    animation: {
+      enable: true,
+      effects: "fade scale",
+      duration: 500
+    },
+    callbacks: {
+      onMixLoad: function(){},
+      onMixStart: function(){},
+      onMixEnd: function(){}
+    }
+  });
   //Counter
   var clock;
   clock = $(".clock").FlipClock({

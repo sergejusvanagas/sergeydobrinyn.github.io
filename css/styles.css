@@ -206,6 +206,48 @@ nav.desk ul {
   margin-left: 80px;
   text-align: justify;
 }
+#portfolio {
+  background-color: #C5C5D6;
+  color: #000000;
+}
+#portfolio .block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.controls {
+  margin-bottom: 10px;
+}
+.controls button {
+  font-family: "BitterRegular";
+  font-size: 1em;
+  background-color: rgba(255,255,255,0);
+  height: 30px;
+  padding: 0 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.controls button.on {
+  border-bottom: 2px solid rgb(40,194,226);
+}
+.portfolio-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.mix {
+  width: 240px;
+  height: 180px;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  background-color: #777777;
+  display: none;
+}
 /*Styles*/
 .block {
   margin: 5px 10px;
@@ -244,7 +286,7 @@ footer .block p {
 }
 /*Go to top*/
 span#goTopSpan {
-  color: #6E78D9;
+  color: rgb(40,194,226);
   text-shadow: 0px 0px 4px rgba(0,0,0,.5);
   z-index: 999;
 }
