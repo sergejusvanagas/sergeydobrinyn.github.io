@@ -206,6 +206,17 @@ nav.desk ul {
   margin-left: 80px;
   text-align: justify;
 }
+.small-pics {
+  margin-left: 80px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.small-pics img.smpic {
+  width: 40px !important;
+  height: 40px;
+  margin-right: 10px;
+}
 #portfolio {
   background-color: #C5C5D6;
   color: #000000;
