@@ -64,18 +64,6 @@ header .wrap {
   margin: 10px 0;
   font-family: "BitterItalic";
 }
-.social-links {
-  display: inline-block;
-  margin: 0 auto !important;
-}
-.social-links li {
-  display: inline-block;
-  margin-right: 20px;
-  margin-bottom: 0 !important;
-}
-.social-links li:last-child {
-  margin-right: 0;
-}
 .mid .wrap ul {
   margin: 20px 0;
 }
