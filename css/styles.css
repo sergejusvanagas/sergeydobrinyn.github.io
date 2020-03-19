@@ -213,11 +213,12 @@ nav.desk ul {
   margin-top: 10px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 .small-pics img.smpic {
   width: 40px !important;
   height: 40px;
-  margin-right: 10px;
+  margin: 5px;
 }
 #portfolio {
   background-color: #C5C5D6;
