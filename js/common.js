@@ -18,7 +18,7 @@ $(document).ready(function() {
   });
   //$("").animated("fadeInLeft", "fadeOutLeft");
   $(".owl-carousel").owlCarousel({
-    margin: 5,
+    margin: 20,
     dots: false,
     center: true,
     loop: true,
