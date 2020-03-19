@@ -64,6 +64,16 @@ header .wrap {
   margin: 10px 0;
   font-family: "BitterItalic";
 }
+.mid h2 {
+  font-family: "BitterBold";
+  font-size: 120%;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.mid h2 a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
 .mid .wrap ul {
   margin: 20px 0;
 }
@@ -100,6 +110,10 @@ h1 {
   font-size: 220%;
   font-family: "BitterBold";
   text-transform: uppercase;
+}
+h2.team {
+  font-family: "BitterBold";
+  font-size: 180%;
 }
 .logo {
   display: flex;
