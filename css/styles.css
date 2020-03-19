@@ -114,6 +114,7 @@ h1 {
 h2.team {
   font-family: "BitterBold";
   font-size: 180%;
+  text-align: center;
 }
 .logo {
   display: flex;
