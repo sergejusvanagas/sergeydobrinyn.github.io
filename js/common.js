@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	//$("header .cont").css("min-height", $(window).height());
+  //$("header .cont").css("min-height", $(window).height());
   $(".nav-link").mPageScroll2id({
     //offset: $(".desk .fixed").height()
     offset: 40
