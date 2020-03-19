@@ -15,7 +15,6 @@
   .mid .wrap div {
     transform: translateX(24px);
   }
-  footer .wrap .block:last-child { flex-grow: 0; }
   .pop-up { width: 350px; }
 }
 @media only screen and (max-width: 767px) {
@@ -50,6 +49,9 @@
     flex-basis: 48% !important;
   }
   footer li { margin: 5px 0; }
+  .inner-wrap {
+    flex-basis: 50%;
+  }
   .pop-up { width: 250px; }
 }
 @media only screen and (min-width: 1024px) {}
