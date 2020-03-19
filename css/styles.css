@@ -269,6 +269,14 @@ nav.desk ul {
   flex-grow: 1;
   flex-shrink: 1;
 }
+.block ul.want {
+  margin-left: 80px;
+  list-style-type: disc;
+}
+.block ul li {
+  margin-left: 20px;
+  font-family: "BitterItalic"
+}
 footer {
   background-color: #575757;
 }
