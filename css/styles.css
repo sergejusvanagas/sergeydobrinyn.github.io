@@ -253,12 +253,19 @@ nav.desk ul {
   align-items: center;
   width: 100%;
 }
+.port-item {
+  overflow: hidden;
+  flex-grow: 0;
+}
+.port-item img {
+  display: block;
+  width: 100%;
+}
 .mix {
   flex-grow: 0;
   flex-shrink: 0;
   flex-basis: 24%;
   margin: 1px;
-  padding: 40px 20px;
   text-align: center;
   background-color: #777777;
   display: none;
@@ -273,7 +280,7 @@ nav.desk ul {
   margin-left: 80px;
   list-style-type: disc;
 }
-.block ul li {
+.block ul.want li {
   margin-left: 20px;
   font-family: "BitterItalic"
 }
