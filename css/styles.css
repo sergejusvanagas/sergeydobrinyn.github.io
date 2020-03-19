@@ -64,6 +64,16 @@ header .wrap {
   margin: 10px 0;
   font-family: "BitterItalic";
 }
+.mid h2 {
+  font-family: "BitterBold";
+  font-size: 120%;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.mid h2 a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
 .mid .wrap ul {
   margin: 20px 0;
 }
@@ -100,6 +110,10 @@ h1 {
   font-size: 220%;
   font-family: "BitterBold";
   text-transform: uppercase;
+}
+h2.team {
+  font-family: "BitterBold";
+  font-size: 180%;
 }
 .logo {
   display: flex;
@@ -239,12 +253,19 @@ nav.desk ul {
   align-items: center;
   width: 100%;
 }
+.port-item {
+  overflow: hidden;
+  flex-grow: 0;
+}
+.port-item img {
+  display: block;
+  width: 100%;
+}
 .mix {
   flex-grow: 0;
   flex-shrink: 0;
   flex-basis: 24%;
   margin: 1px;
-  padding: 40px 20px;
   text-align: center;
   background-color: #777777;
   display: none;
@@ -254,6 +275,14 @@ nav.desk ul {
   margin: 5px 10px;
   flex-grow: 1;
   flex-shrink: 1;
+}
+.block ul.want {
+  margin-left: 80px;
+  list-style-type: disc;
+}
+.block ul.want li {
+  margin-left: 20px;
+  font-family: "BitterItalic"
 }
 footer {
   background-color: #575757;
