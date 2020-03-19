@@ -292,6 +292,7 @@ nav.desk ul {
 .we-person img {
   max-width: 120px;
   margin: 0 auto;
+  margin-bottom: 5px;
   border-radius: 100%;
 }
 .we-person h4 {
