@@ -222,6 +222,9 @@ nav.desk ul {
   height: 40px;
   margin: 5px;
 }
+#skill .block a.nav-link {
+  margin-left: 80px;
+}
 #portfolio {
   background-color: #C5C5D6;
   color: #000000;
