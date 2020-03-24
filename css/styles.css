@@ -191,6 +191,7 @@ nav.desk ul {
 }
 #skill .block {
   flex-basis: 46%;
+  position: relative;
 }
 /*#skill .block:last-child {
   flex-grow: 0;
@@ -199,6 +200,14 @@ nav.desk ul {
   display: block;
   width: 60px;
   float: left;
+}
+#skill .block img.bage {
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 40px;
+  left: 40px;
 }
 #skill .block h2 {
   font-family: "BitterBold";
