@@ -378,6 +378,13 @@ footer .block a {
 footer .block p {
   text-align: left;
 }
+.payment {
+  margin-top: 10px;
+}
+.payment img {
+  display: inline-block;
+  height: 40px;
+}
 .copy {
   font-family: "BitterItalic";
 }
