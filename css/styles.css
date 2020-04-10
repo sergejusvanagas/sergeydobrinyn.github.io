@@ -385,6 +385,16 @@ footer .block p {
   display: inline-block;
   height: 40px;
 }
+.communicate {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.communicate li {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 50%;
+}
 .copy {
   font-family: "BitterItalic";
 }
