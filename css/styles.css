@@ -201,9 +201,9 @@ nav.desk ul {
   border-radius: 100%;
   shape-outside: circle(50%);
 }
-/*#skill .block:last-child {
-  flex-grow: 0;
-}*/
+#skill .welcome {
+  font-family: "BitterItalic";
+}
 #skill .block img {
   display: block;
   width: 60px;
