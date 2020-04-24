@@ -436,8 +436,8 @@ span#goTopSpan {
 .gauge {
   display: flex;
   flex-direction: row;
-  flex-grow: 1;
-  flex-shrink: 1;
+  flex-grow: 0;
+  flex-shrink: 0;
   flex-basis: 20% !important;
   flex-wrap: wrap;
   justify-content: center;
