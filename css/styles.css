@@ -433,3 +433,49 @@ span#goTopSpan {
   border-radius: 100%;
   margin-bottom: 10px;
 }
+.gauge {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 20% !important;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+/*Gauge Meter*/
+.gaugemeter {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  cursor: default;
+  display: inline-block;
+}
+.gaugemeter span, .gaugemeter b {
+  width: 54%;
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+  color: rgba(0, 0, 0, .8);
+  font-weight: 100;
+  font-family: "BitterRegular";
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 0 23%;
+}
+.gaugemeter[data-style="semi"] b {
+  width: 80%;
+  margin: 0 10%;
+}
+.gaugemeter s, .gaugemeter u {
+  text-decoration: none;
+  font-size: .6em;
+  font-weight: 200;
+  opacity: .6;
+}
+.gaugemeter b {
+  color: #000000;
+  font-weight: 200;
+  opacity: .8;
+}

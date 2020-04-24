@@ -86,6 +86,7 @@ $(document).ready(function() {
       onMixEnd: function(){}
     }
   });
+  $(".gaugemeter").gaugeMeter();
   //Counter
   var clock;
   clock = $(".clock").FlipClock({
