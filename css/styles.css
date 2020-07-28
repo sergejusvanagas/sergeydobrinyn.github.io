@@ -163,6 +163,11 @@ a.logo:before {
   margin-right: 10px;
   border-radius: 100%;
 }
+a.link-to-video {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: "BitterBoldItalic";
+}
 .fixed {
   position: fixed;
   top: 0;
