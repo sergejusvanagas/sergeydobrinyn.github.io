@@ -1,0 +1,17 @@
+{
+  "name": "mysite",
+  "description": "My site.",
+  "main": "index.js",
+  "authors": [
+    "Sergey"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/SergeyDobrinyn/sergeydobrinyn.github.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
