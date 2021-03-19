@@ -1,1 +1,15 @@
 $mainFont: "bitterbold";
+.wrap {
+  margin: 0 auto;
+  width: 80%;
+  .cont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .block {
+      flex-basis: 24%;
+      flex-grow: 1;
+      flex-shrink: 1;
+    }
+  }
+}
