@@ -87,6 +87,11 @@ $(document).ready(function() {
     }
   });
   $(".gaugemeter").gaugeMeter();
+  $("#prog").progress({
+    size: "4px",
+    position: "top",
+    wapperBg: "rgba(0,0,0,0)"
+  });
   //Counter
   var clock;
   clock = $(".clock").FlipClock({
