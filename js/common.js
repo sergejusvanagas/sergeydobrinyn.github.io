@@ -61,6 +61,18 @@ $(document).ready(function() {
       $(".mobile").fadeOut();
     }
   });
+  //Tabs
+  $(".tabs").smartTab({
+    selected: 0,
+    theme: "default",
+    orientation: "horizontal",
+    justified: true,
+    autoAjustHeight: true,
+    transition: {
+      animation: "none",
+      speed: 400
+    }
+  });
   //Pop-up
   $(".popup-link").magnificPopup({
     /*preloader: true,
