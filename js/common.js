@@ -1,5 +1,13 @@
 $(document).ready(function() {
   //$("header .cont").css("min-height", $(window).height());
+  let toggle = document.getElementById("theme");
+  toggle.addEventListener("change", (event) => {
+    if (event.target.checked) {
+      //$("LINK[href*='css/light.css']").remove();
+    } else {
+      //$("LINK[href*='css/dark.css']").remove();
+    }
+  });
   $(".nav-link").mPageScroll2id({
     //offset: $(".desk .fixed").height()
     offset: 40

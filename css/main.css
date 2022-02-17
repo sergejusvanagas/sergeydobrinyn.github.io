@@ -4,7 +4,19 @@
 @import url(media.css);
 html {
   font-family: "ClearSansRegular";
+  font-size: 1.1rem;
+}
+header .wrapper {
+  align-items: center;
+}
+header .block {
+  display: flex;
+  align-items: center;
 }
 #call li {
   display: inline-block;
+  margin-right: 8px;
+}
+.nav-link {
+  text-decoration: none;
 }
